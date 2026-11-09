@@ -2,6 +2,8 @@
 
 A pixel-faithful, high-performance static website for **Zaika Restaurant, Nahan (Hotel City Heart, 3rd Floor)** built with Astro and Tailwind CSS.
 
+🌐 **Live site:** https://zaika-restaurant-nahan.netlify.app/
+
 ---
 
 ## 🚀 Quick Start
