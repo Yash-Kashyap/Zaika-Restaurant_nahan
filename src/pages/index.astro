@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TopBar from '../components/TopBar.astro';
+import FloorOverlay from '../components/FloorOverlay.astro';
+import Hero from '../components/Hero.astro';
+import Lobby from '../components/Lobby.astro';
+import FloorTandoor from '../components/FloorTandoor.astro';
+import FloorWok from '../components/FloorWok.astro';
+import WinterSpecial from '../components/WinterSpecial.astro';
+import FullMenu from '../components/FullMenu.astro';
+import WindowSeat from '../components/WindowSeat.astro';
+import HotelNote from '../components/HotelNote.astro';
+import Footer from '../components/Footer.astro';
+import LiftIndicator from '../components/LiftIndicator.astro';
+import MobileBar from '../components/MobileBar.astro';
+import OrderTicket from '../components/OrderTicket.astro';
+import OrderSlip from '../components/OrderSlip.astro';
+---
+
+<BaseLayout>
+  <TopBar />
+  <FloorOverlay />
+
+  <main>
+    <Hero />
+    <Lobby />
+    <FloorTandoor />
+    <FloorWok />
+    <WinterSpecial />
+    <FullMenu />
+    <WindowSeat />
+    <HotelNote />
+  </main>
+
+  <Footer />
+
+  <LiftIndicator />
+  <MobileBar />
+  <OrderTicket />
+  <OrderSlip />
+</BaseLayout>

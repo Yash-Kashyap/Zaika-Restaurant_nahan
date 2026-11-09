@@ -1,0 +1,43 @@
+---
+import AddControl from './AddControl.astro';
+import { siteConfig } from '../data/site';
+---
+
+<section class="floor" id="floor-2" data-floor="2" aria-labelledby="f2-h">
+  <div class="wrap wok-grid">
+    <div class="wok-side">
+      <p class="floorlabel"><b>2</b>The wok<span class="line"></span></p>
+      <h2 id="f2-h">Chilli, garlic, <em>a very hot wok.</em></h2>
+      <p class="lede">The Desi-Chinese side of the kitchen: dry, gravy or tossed through noodles.</p>
+      <div class="rv" style="max-width:40ch">
+        <p class="quote">"Loved the Chinese food and French fries… Good quality and quantity."</p>
+        <p class="who">Harry, Google</p>
+      </div>
+    </div>
+    <ol class="wok-list">
+      {
+        siteConfig.wokList.map((w, idx) => {
+          const no = `0${idx + 1}`;
+          const isNonVeg = w.t === 'n';
+          const vmCls = isNonVeg ? 'vm n' : 'vm';
+          const vmLabel = isNonVeg ? 'Non-veg' : 'Veg';
+
+          return (
+            <li class="reveal">
+              <span class="n">{no}</span>
+              <span class="nm">
+                <span class={vmCls} aria-label={vmLabel}></span>
+                {w.n}
+              </span>
+              <span class="right" style="grid-column:2 / span 2;justify-content:flex-end">
+                <span class="price">₹{w.p}</span>
+                <AddControl dish={w.n} />
+              </span>
+            </li>
+          );
+        })
+      }
+    </ol>
+  </div>
+</section>
+

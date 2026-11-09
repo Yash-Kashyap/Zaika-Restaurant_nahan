@@ -1,0 +1,21 @@
+---
+import { siteConfig } from '../data/site';
+---
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#floor-g" aria-label="Zaika Restaurant, back to top">
+      <span class="z">Zaika</span>
+      <span class="at">Third floor · Hotel City Heart</span>
+    </a>
+    <div class="top-r">
+      <a class="btn btn-action" href={siteConfig.phoneHref}>Call {siteConfig.phone}</a>
+      <button class="menubtn" type="button" data-open-nav aria-label="Open floor menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M4 8h16M4 16h16"></path>
+        </svg>Floors
+      </button>
+    </div>
+  </div>
+</header>
+

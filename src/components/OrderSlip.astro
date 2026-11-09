@@ -1,0 +1,60 @@
+---
+import { siteConfig } from '../data/site';
+---
+
+<div id="order-slip-wrap" class="slip-wrap" hidden>
+  <button class="slip-shade" type="button" data-close-slip aria-label="Close order slip"></button>
+  <aside class="slip" role="dialog" aria-modal="true" aria-labelledby="slip-h">
+    <div class="slip-head">
+      <div>
+        <p class="micro">Zaika · Third floor</p>
+        <h2 id="slip-h">Your order slip</h2>
+      </div>
+      <button class="menubtn" type="button" data-close-slip aria-label="Close order slip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="slip-body">
+      <ul class="slip-list" data-slip-list>
+        <!-- Rendered live via client cart store -->
+      </ul>
+      <div class="total">
+        <span class="micro">Estimated total</span>
+        <span class="v" data-slip-total>₹0</span>
+      </div>
+      <p style="font-size:14px;color:var(--ink-muted)">
+        Based on Zomato prices. The restaurant confirms the final bill when it calls you back.
+      </p>
+      <div class="field">
+        <span class="micro">How do you want it?</span>
+        <div class="seg" role="group" aria-label="Order type">
+          <button class="on" type="button" data-mode-btn="takeaway" aria-pressed="true">Takeaway</button>
+          <button type="button" data-mode-btn="table" aria-pressed="false">At a table</button>
+          <button type="button" data-mode-btn="room" aria-pressed="false">Hotel room</button>
+        </div>
+      </div>
+      <label class="field">
+        <span class="micro">Your name</span>
+        <input type="text" data-name-input autocomplete="name" placeholder="So the kitchen knows who it's for" />
+      </label>
+      <label class="field" data-ref-field style="display:none">
+        <span class="micro" data-ref-label>Table number</span>
+        <input type="text" data-ref-input placeholder="e.g. Window table 4" />
+      </label>
+    </div>
+    <div class="slip-foot">
+      <a class="btn btn-action" data-cart-wa-btn href="#" target="_blank" rel="noopener">
+        Send order on WhatsApp
+      </a>
+      <a class="btn btn-line" href={siteConfig.phoneHref}>
+        Call to order: {siteConfig.phone}
+      </a>
+      <button class="textbtn" type="button" data-clear-slip>
+        Clear the slip
+      </button>
+    </div>
+  </aside>
+</div>
+

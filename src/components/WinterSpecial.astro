@@ -1,0 +1,34 @@
+---
+import menuData from '../data/menu.json';
+
+const winterItems = menuData[0].items;
+---
+
+<section class="winter" aria-labelledby="win-h">
+  <div class="wrap winter-grid">
+    <div class="lead">
+      <p class="micro">Seasonal · Winter Special</p>
+      <h2 id="win-h">For Nahan's cold evenings.</h2>
+    </div>
+    <ul class="winter-list">
+      {
+        winterItems.map((w) => {
+          const isNonVeg = w.t === 'n';
+          const vmCls = isNonVeg ? 'vm n' : 'vm';
+          const vmLabel = isNonVeg ? 'Non-veg' : 'Veg';
+
+          return (
+            <li>
+              <span class="nm">
+                <span class={vmCls} aria-label={vmLabel}></span>
+                {w.n}
+              </span>
+              <span class="price">₹{w.p}</span>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</section>
+

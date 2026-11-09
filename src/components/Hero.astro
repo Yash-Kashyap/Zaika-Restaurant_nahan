@@ -1,0 +1,40 @@
+---
+import { siteConfig } from '../data/site';
+---
+
+<section class="hero" id="floor-g" data-floor="G" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <p class="three" aria-hidden="true">3</p>
+    <div class="hero-copy">
+      <p class="micro">{siteConfig.floorBadge}</p>
+      <h1 id="h1">Upar <em>aaiye.</em></h1>
+      <p class="where lede">
+        Zaika is the dining room on the <strong>third floor of Hotel City Heart</strong>, with windows over Chaugan Ground. Tandoor, curries and Desi-Chinese, two sittings a day.
+      </p>
+      <p class="status">
+        <span class="dot on" data-status-dot></span>
+        <span data-status-text>Day sitting until 4 pm. The night sitting starts at 6.</span>
+      </p>
+      <div class="ctas">
+        <a class="btn btn-action" href={siteConfig.phoneHref}>Call to book a table</a>
+        <a class="btn btn-line" href={siteConfig.mapsUrl} target="_blank" rel="noopener">Get directions</a>
+        <a class="link" href={siteConfig.zomatoOrderUrl} target="_blank" rel="noopener">Order on Zomato</a>
+      </div>
+      <div class="facts">
+        <div>
+          <span class="v">{siteConfig.ratings.zomatoScore}</span>
+          <span class="micro">{siteConfig.ratings.zomatoCount}</span>
+        </div>
+        <div>
+          <span class="v">{siteConfig.costForTwo}</span>
+          <span class="micro">Approx. for two</span>
+        </div>
+        <div>
+          <span class="v">Lift</span>
+          <span class="micro">or stairs to the 3rd floor</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,129 @@
+---
+import AddControl from './AddControl.astro';
+import menuData from '../data/menu.json';
+
+const firstCat = menuData[0];
+---
+
+<section class="floor" id="floor-3" data-floor="3" aria-labelledby="f3-h">
+  <div class="wrap">
+    <p class="floorlabel"><b>3</b>The table<span class="line"></span><span>198 dishes · 13 sections</span></p>
+    <h2 id="f3-h" style="margin-bottom:64px">You've arrived. <em>Here's everything.</em></h2>
+    <div class="menu-grid">
+      <div class="menu-side">
+        <label class="search">
+          <span class="micro" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">
+            Search the menu
+          </span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5"></circle>
+            <path d="M16 16l4.5 4.5"></path>
+          </svg>
+          <input
+            id="menu-search-input"
+            type="search"
+            placeholder="Search 198 dishes: paneer, noodles, rara…"
+            autocomplete="off"
+          />
+          <button id="menu-search-clear" class="clear" type="button" aria-label="Clear search" hidden>
+            Clear
+          </button>
+        </label>
+
+        <div class="chips" role="tablist" aria-label="Menu sections">
+          {
+            menuData.map((c, idx) => (
+              <button
+                class={`chip ${idx === 0 ? 'on' : ''}`}
+                type="button"
+                role="tab"
+                aria-selected={idx === 0 ? 'true' : 'false'}
+                data-chip-btn={idx}
+              >
+                {c.name}
+              </button>
+            ))
+          }
+        </div>
+
+        <ol class="dir" id="menu-dir" aria-label="Menu sections">
+          {
+            menuData.map((c, idx) => {
+              const no = (idx < 9 ? '0' : '') + (idx + 1);
+              const on = idx === 0;
+              return (
+                <li>
+                  <button
+                    class={`dir-btn ${on ? 'on' : ''}`}
+                    type="button"
+                    aria-pressed={on ? 'true' : 'false'}
+                    data-cat-btn={idx}
+                  >
+                    <span class="no">{no}</span>
+                    <span class="nm">{c.name}</span>
+                    <span class="ct">{c.items.length}</span>
+                  </button>
+                </li>
+              );
+            })
+          }
+        </ol>
+
+        <div class="legend">
+          <span><span class="vm" aria-hidden="true"></span>Veg</span>
+          <span><span class="vm n" aria-hidden="true"></span>Non-veg (incl. egg)</span>
+        </div>
+
+        <p class="note">
+          Prices shown are Zomato delivery prices, taxes extra. Dine-in prices are lower: [CONFIRM DINE-IN MENU CARD]
+        </p>
+      </div>
+
+      <div class="menu-main">
+        <p class="catname" id="menu-title">{firstCat.name}</p>
+        <div class="meta">
+          <span class="micro" id="menu-meta-sub">{firstCat.items.length} dishes</span>
+          <span class="micro">Prices in ₹</span>
+        </div>
+
+        <div id="menu-empty-state" class="empty" hidden>
+          <b>Nothing by that name.</b>Try "paneer", "chilli" or "noodles", or call and ask the kitchen.
+        </div>
+
+        <ul id="menu-search-results" class="items" role="tabpanel" aria-label="Search results" hidden></ul>
+
+        {
+          menuData.map((c, catIdx) => (
+            <ul
+              class="items"
+              role="tabpanel"
+              aria-label={c.name}
+              data-menu-section={catIdx}
+              hidden={catIdx !== 0}
+            >
+              {c.items.map((it) => {
+                const isNonVeg = it.t === 'n';
+                const vmCls = isNonVeg ? 'vm n' : 'vm';
+                const vmLabel = isNonVeg ? 'Non-veg' : 'Veg';
+                return (
+                  <li>
+                    <span class={vmCls} aria-label={vmLabel}></span>
+                    <span>
+                      <span class="nm">{it.n}</span>
+                      {it.d && <span class="ds">{it.d}</span>}
+                    </span>
+                    <span class="right">
+                      <span class="price">₹{it.p}</span>
+                      <AddControl dish={it.n} />
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
+

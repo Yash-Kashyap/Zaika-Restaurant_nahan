@@ -1,0 +1,104 @@
+---
+import AddControl from './AddControl.astro';
+import { siteConfig } from '../data/site';
+---
+
+<section class="floor" id="floor-1" data-floor="1" aria-labelledby="f1-h">
+  <div class="wrap">
+    <p class="floorlabel"><b>1</b>The tandoor<span class="line"></span><span>House signatures</span></p>
+    <div class="f-head">
+      <h2 id="f1-h">Two dishes carry <em>the hotel's name.</em></h2>
+      <p class="lede">The kitchen named its rara after Hotel City Heart. Start there, then go to the tandoor.</p>
+    </div>
+    <div class="bento">
+      <article class="tile t-house reveal">
+        <p class="tag"><span class="vm n" aria-label="Non-veg"></span>The house dish</p>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <h3>Murgh Rara Special City Heart</h3>
+          <p class="desc">Chicken cooked with keema in Indian spices, finished with boiled eggs. It's on the winter list too.</p>
+        </div>
+        <div class="row">
+          <span class="micro">Mains · Mutton Rara ₹553.50</span>
+          <span class="right">
+            <span class="price">₹513</span>
+            <AddControl dish={siteConfig.signatures.rara} />
+          </span>
+        </div>
+      </article>
+
+      <figure class="tile t-photo" style="margin:0">
+        <img
+          src="/images/tandoor.jpg"
+          alt="Two cream-marinated chicken legs from the tandoor, with green chutney and salad"
+          loading="lazy"
+        />
+        <div class="doors" aria-hidden="true"><i></i><i></i></div>
+        <figcaption class="cap">From the tandoor</figcaption>
+      </figure>
+
+      <article class="tile t-a reveal">
+        <p class="tag"><span class="vm n" aria-label="Non-veg"></span>Tandoor</p>
+        <h3>Tandoori Chicken</h3>
+        <p class="quote" style="font-size:18px">"Tried chicken tandoori. Taste was good."</p>
+        <div class="row">
+          <span class="who">Himanshu, Google</span>
+          <span class="right">
+            <span class="price">₹526.50</span>
+            <AddControl dish={siteConfig.signatures.tandoori} />
+          </span>
+        </div>
+      </article>
+
+      <article class="tile t-b reveal">
+        <p class="tag"><span class="vm" aria-label="Veg"></span>Tandoor</p>
+        <h3>Kashmiri Paneer Tikka</h3>
+        <div class="row">
+          <span class="micro">Starter</span>
+          <span class="right">
+            <span class="price">₹472.50</span>
+            <AddControl dish={siteConfig.signatures.kashmiri} />
+          </span>
+        </div>
+      </article>
+
+      <article class="tile t-c reveal">
+        <p class="tag"><span class="vm" aria-label="Veg"></span>Named for the kitchen</p>
+        <h3>Zaika Ka Lajawab Paneer Finger</h3>
+        <div class="row">
+          <span class="micro">Snack</span>
+          <span class="right">
+            <span class="price">₹337.50</span>
+            <AddControl dish={siteConfig.signatures.finger} />
+          </span>
+        </div>
+      </article>
+
+      <article class="tile t-d reveal">
+        <p class="tag"><span class="vm" aria-label="Veg"></span>Slow pot</p>
+        <h3>Dal Makhani</h3>
+        <p class="desc">Black lentils simmered with cream and butter.</p>
+        <div class="row">
+          <span class="micro">Veg main</span>
+          <span class="right">
+            <span class="price">₹378</span>
+            <AddControl dish={siteConfig.signatures.dal} />
+          </span>
+        </div>
+      </article>
+
+      <article class="tile t-e reveal">
+        <p class="tag"><span class="vm" aria-label="Veg"></span>For the veg table</p>
+        <h3>Soya Malai Tandoori Chaap</h3>
+        <p class="desc">Nine chaaps on the menu, Chinese, tandoori and Indian. Malai is the soft one.</p>
+        <div class="row">
+          <span class="micro">Chaap</span>
+          <span class="right">
+            <span class="price">₹378</span>
+            <AddControl dish={siteConfig.signatures.chaap} />
+          </span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+

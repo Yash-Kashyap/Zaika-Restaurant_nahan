@@ -1,0 +1,53 @@
+export const siteConfig = {
+  name: 'Zaika Restaurant',
+  subtitle: 'third floor, Hotel City Heart',
+  floorBadge: 'Floor G → 3 · Naya Bazar, Nahan',
+  address: 'Hotel City Heart, Naya Bazar, opposite Chaugan Ground, Nahan, Himachal Pradesh',
+  phone: '94184 51943',
+  phoneHref: 'tel:+919418451943',
+  whatsappRaw: '919418451943',
+  whatsappDisplay: '[WHATSAPP NUMBER]',
+  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=30.5591239614,77.2958900344',
+  zomatoOrderUrl: 'https://www.zomato.com/nahan/zaika-restaurant-nahan-locality/order',
+  zomatoReviewsUrl: 'https://www.zomato.com/nahan/zaika-restaurant-nahan-locality/reviews',
+  districtUrl: 'https://www.district.in/dining/nahan/zaika-restaurant-nahan-locality',
+  justdialUrl: 'https://www.justdial.com/Nahan/Zaika-Restaurant-Naya-Bazar/9999P1702-1702-130710160302-J5Z4_BZDET',
+  instagramPlaceholder: '[INSTAGRAM]',
+  fssai: '10918010000031',
+  costForTwo: '₹850',
+  ratings: {
+    zomatoScore: '4.0',
+    zomatoCount: '249 delivery ratings',
+    justdialScore: '3.7',
+    justdialCount: 'JustDial',
+  },
+  credit: {
+    name: 'Yash Kashyap',
+    email: 'yashkashyap1110@gmail.com',
+    phone: '787 633 1526',
+    phoneHref: 'tel:+917876331526',
+  },
+  hours: {
+    day: { label: 'Day sitting', time: '8:15 am – 4 pm', note: 'Breakfast, lunch' },
+    night: { label: 'Night sitting', time: '6 pm – 10:45 pm', note: 'Open every day' },
+  },
+  signatures: {
+    rara: 'Murgh Rara Special City Heart',
+    tandoori: 'Tandoori Chicken Roasted',
+    kashmiri: 'Kashmiri Paneer Tikka',
+    finger: 'Zaika Ka Lajawab Paneer Finger',
+    dal: 'Dal Makhani',
+    chaap: 'Soya Malai Tandoori Chaap',
+  },
+  wokList: [
+    { n: 'Chilli Chicken', p: '513', t: 'n' },
+    { n: 'Chilli Paneer', p: '378', t: 'v' },
+    { n: 'Honey Gobi', p: '378', t: 'v' },
+    { n: 'Chicken Lollipop (4 pcs)', p: '513', t: 'n' },
+    { n: 'Vegetable Manchurian Dry', p: '364.50', t: 'v' },
+    { n: 'Chilli Chicken Garlic Noodles', p: '391.50', t: 'n' },
+    { n: 'Vegetable Hakka Noodles', p: '310.50', t: 'v' },
+    { n: 'Chicken Manchow Soup', p: '243', t: 'n' },
+  ]
+};
+

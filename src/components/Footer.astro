@@ -1,0 +1,42 @@
+---
+import { siteConfig } from '../data/site';
+---
+
+<footer class="foot" aria-label="Contact and visit">
+  <div class="wrap foot-grid">
+    <nav class="panel" aria-label="Floors">
+      <a href="#floor-3" aria-label="Floor 3, the full menu">3</a>
+      <a href="#floor-2" aria-label="Floor 2, the wok">2</a>
+      <a href="#floor-1" aria-label="Floor 1, the tandoor">1</a>
+      <a href="#floor-g" aria-label="Ground floor, back to top">G</a>
+    </nav>
+    <div class="foot-col w">
+      <p class="micro">Address</p>
+      <p>{siteConfig.address}</p>
+      <a class="link" href={siteConfig.mapsUrl} target="_blank" rel="noopener">
+        Get directions
+      </a>
+    </div>
+    <div class="foot-col">
+      <p class="micro">Call</p>
+      <a href={siteConfig.phoneHref}>+91 {siteConfig.phone}</a>
+      <p style="color:var(--ink-muted)">WhatsApp: {siteConfig.whatsappDisplay}</p>
+    </div>
+    <div class="foot-col">
+      <p class="micro">Order &amp; find</p>
+      <a href={siteConfig.zomatoOrderUrl} target="_blank" rel="noopener">Zomato</a>
+      <a href={siteConfig.districtUrl} target="_blank" rel="noopener">District</a>
+      <a href={siteConfig.justdialUrl} target="_blank" rel="noopener">JustDial</a>
+      <p style="color:var(--ink-muted)">{siteConfig.instagramPlaceholder}</p>
+    </div>
+    <div class="fine">
+      <span>Open daily · {siteConfig.hours.day.time} · {siteConfig.hours.night.time}</span>
+      <span>FSSAI Lic. No. {siteConfig.fssai}</span>
+      <span>© 2026 {siteConfig.name} · Hotel City Heart, Nahan</span>
+      <span class="credit micro" style="color:var(--ink-muted)">
+        Website by {siteConfig.credit.name} · <a href={`mailto:${siteConfig.credit.email}`}>{siteConfig.credit.email}</a> · <a href={siteConfig.credit.phoneHref}>{siteConfig.credit.phone}</a>
+      </span>
+    </div>
+  </div>
+</footer>
+

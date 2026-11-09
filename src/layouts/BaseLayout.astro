@@ -1,0 +1,116 @@
+---
+import '../styles/global.css';
+import { siteConfig } from '../data/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const title = Astro.props.title || "Zaika Restaurant, Nahan: third floor, Hotel City Heart";
+const description =
+  Astro.props.description ||
+  "Zaika Restaurant on the third floor of Hotel City Heart, Naya Bazar, opposite Chaugan Ground, Nahan. Tandoor, North Indian, Mughlai and Desi-Chinese. Dine-in, takeaway and Zomato delivery.";
+
+const canonicalUrl = "https://zaikanahan.com/";
+
+const restaurantJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  name: "Zaika Restaurant",
+  image: "https://zaikanahan.com/images/interior.jpg",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "3rd Floor, Hotel City Heart, Naya Bazar, opp. Chaugan Ground",
+    addressLocality: "Nahan",
+    addressRegion: "Himachal Pradesh",
+    addressCountry: "IN",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 30.5591239614,
+    longitude: 77.2958900344,
+  },
+  telephone: "+91-9418451943",
+  servesCuisine: ["North Indian", "Mughlai", "Chinese", "Fast Food"],
+  priceRange: "₹₹",
+  acceptsReservations: true,
+  menu: "https://zaikanahan.com/#floor-3",
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "08:15",
+      closes: "16:00",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "18:00",
+      closes: "22:45",
+    },
+  ],
+  paymentAccepted: "Cash, Credit Card, UPI",
+};
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta name="theme-color" content="#F1F3EC" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/images/interior.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/images/interior.jpg" />
+
+    <!-- Fonts Preload -->
+    <link rel="preload" href="/fonts/boska-700.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/boska-400-italic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/general-sans-500.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify(restaurantJsonLd)} />
+
+    <!-- Remove no-js immediately if JS is enabled -->
+    <script is:inline>
+      document.documentElement.classList.remove('no-js');
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body>
+    <div class="site">
+      <slot />
+    </div>
+
+    <!-- Client Scripts -->
+    <script>
+      import { initStatus } from '../scripts/status';
+      import { initFloors } from '../scripts/floors';
+      import { initCart } from '../scripts/cart';
+      import { initMenu } from '../scripts/menu';
+
+      document.addEventListener('DOMContentLoaded', () => {
+        initStatus();
+        initFloors();
+        initCart();
+        initMenu();
+      });
+    </script>
+  </body>
+</html>
+

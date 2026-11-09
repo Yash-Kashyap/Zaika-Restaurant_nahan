@@ -1,0 +1,1255 @@
+[
+  {
+    "name": "Winter Special",
+    "items": [
+      {
+        "n": "Murgh Malai Tikka",
+        "p": "567",
+        "d": "Boneless chicken in cream and cashew paste, roasted in the tandoor.",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Tikka",
+        "p": "540",
+        "d": "Boneless chicken in yoghurt and mint spices, roasted in the tandoor.",
+        "t": "n"
+      },
+      {
+        "n": "Lehsuni Kebab",
+        "p": "540",
+        "d": "Boneless chicken in yoghurt and garlic, roasted in the tandoor.",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Mat Kebab",
+        "p": "756",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Rara Special City Heart",
+        "p": "513",
+        "d": "Chicken cooked with keema in Indian spices, finished with boiled eggs.",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Handi",
+        "p": "513",
+        "d": "Chicken in a spiced Indian curry.",
+        "t": "n"
+      }
+    ]
+  },
+  {
+    "name": "Meals",
+    "items": [
+      {
+        "n": "Paneer Naan with Gravy",
+        "p": "337.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Keema Naan with Gravy",
+        "p": "378",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Cheese Sandwich with French Fries",
+        "p": "310.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Egg Sandwich with French Fries",
+        "p": "283.50",
+        "d": "",
+        "t": "n"
+      }
+    ]
+  },
+  {
+    "name": "Soups & Salads",
+    "items": [
+      {
+        "n": "Veg Lemon Coriander Soup",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Cream of Tomato Soup",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Hot and Sour Soup",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Sweet Corn Soup",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Talumein Soup",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Manchow Soup",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Cream of Manchow Soup",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Cream of Chicken Soup",
+        "p": "243",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Manchow Soup",
+        "p": "243",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Sweet Corn Soup",
+        "p": "243",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Talumein Soup",
+        "p": "243",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Hot and Sour Soup",
+        "p": "243",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Clear Soup",
+        "p": "243",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Russian Salad",
+        "p": "270",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Hara Bhara Salad",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Cream Kachumber Salad",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Fresh Onion Salad",
+        "p": "132.30",
+        "d": "",
+        "t": "v"
+      }
+    ]
+  },
+  {
+    "name": "Starters",
+    "items": [
+      {
+        "n": "Chilli Paneer",
+        "p": "378",
+        "d": "Cottage cheese, fried and tossed with onion and capsicum.",
+        "t": "v"
+      },
+      {
+        "n": "Chilli Mushroom",
+        "p": "378",
+        "d": "Mushroom, fried and tossed with onion and capsicum.",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Manchurian Dry",
+        "p": "364.50",
+        "d": "Vegetable balls, fried and tossed in ginger-garlic sauce.",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Sweet and Sour",
+        "p": "415.80",
+        "d": "Vegetables cooked with pineapple in sweet and sour sauce.",
+        "t": "v"
+      },
+      {
+        "n": "Honey Gobi",
+        "p": "378",
+        "d": "Stir-fried cauliflower glazed with honey.",
+        "t": "v"
+      },
+      {
+        "n": "Chilli Honey Potato",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Crispy Veg",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Tikka",
+        "p": "405",
+        "d": "Cottage cheese in spiced herb yoghurt, roasted in the tandoor.",
+        "t": "v"
+      },
+      {
+        "n": "Kashmiri Paneer Tikka",
+        "p": "472.50",
+        "d": "Cottage cheese in spiced herb yoghurt, roasted in the tandoor.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Seekh Kebab",
+        "p": "418.50",
+        "d": "Cottage cheese with herbs and mint, roasted on skewers.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Malai Tikka",
+        "p": "472.50",
+        "d": "Cottage cheese in cashew paste, roasted in the tandoor.",
+        "t": "v"
+      },
+      {
+        "n": "Veg Seekh Kebab",
+        "p": "364.50",
+        "d": "Finely chopped vegetables, spices and herbs, chargrilled on skewers.",
+        "t": "v"
+      },
+      {
+        "n": "Shami Achari Mushroom",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Makai Seekh Kebab",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chilli Chicken",
+        "p": "513",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Boneless Chilli Chicken",
+        "p": "526.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Manchurian",
+        "p": "526.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Sweet and Sour",
+        "p": "567",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Lollipop (4 pcs)",
+        "p": "513",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Lemon Chicken",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Garlic Chicken",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Ginger Chicken",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Kalmi Kebab",
+        "p": "567",
+        "d": "Chicken in cashew paste, chargrilled.",
+        "t": "n"
+      },
+      {
+        "n": "Stuffed Tangdi Kebab",
+        "p": "675",
+        "d": "Chicken legs marinated in egg white and cream, roasted in the tandoor.",
+        "t": "n"
+      },
+      {
+        "n": "Afghani Chicken",
+        "p": "540",
+        "d": "Chicken in cashew paste and cream, roasted in the tandoor.",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Seekh Kebab",
+        "p": "540",
+        "d": "Minced chicken with spices and herbs on skewers.",
+        "t": "n"
+      },
+      {
+        "n": "Tandoori Chicken Roasted",
+        "p": "526.50",
+        "d": "Spring chicken in yoghurt and spices, roasted in the tandoor.",
+        "t": "n"
+      }
+    ]
+  },
+  {
+    "name": "Chaap",
+    "items": [
+      {
+        "n": "Lemon Soya Chaap",
+        "p": "364.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chilli Soya Chaap",
+        "p": "364.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soya Manchurian Chaap",
+        "p": "364.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soya Masala Tandoori Chaap",
+        "p": "364.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soya Malai Tandoori Chaap",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soya Afghani Tandoori Chaap",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soya Chatpati Tandoori Chaap",
+        "p": "364.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soya Masala Chaap",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soya Palak Chaap",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      }
+    ]
+  },
+  {
+    "name": "Veg Mains",
+    "items": [
+      {
+        "n": "Dal Makhani",
+        "p": "378",
+        "d": "Black lentils simmered with cream and butter.",
+        "t": "v"
+      },
+      {
+        "n": "Yellow Dal Tadka",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Makhani",
+        "p": "491.40",
+        "d": "Cottage cheese in a mildly spiced tomato gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Kadhai Paneer",
+        "p": "405",
+        "d": "Cottage cheese with onion, capsicum and tomato.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Methi Malai",
+        "p": "491.40",
+        "d": "Cottage cheese in a creamy gravy with fenugreek.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Hara Bhara",
+        "p": "491.40",
+        "d": "Paneer and spinach.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Bhurji",
+        "p": "418.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Tomato",
+        "p": "511.65",
+        "d": "Paneer in a rich tomato gravy, finished with cream.",
+        "t": "v"
+      },
+      {
+        "n": "Shahi Paneer",
+        "p": "491.40",
+        "d": "Paneer in a rich, creamy gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Pasanda",
+        "p": "418.50",
+        "d": "Cottage cheese stuffed with dry fruit, in a rich gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Butter Masala",
+        "p": "405",
+        "d": "Paneer in tomato and butter gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Tikka Butter Masala",
+        "p": "418.50",
+        "d": "Tandoor-roasted paneer in tomato and butter gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Do Pyaaza",
+        "p": "405",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Begum Bahar",
+        "p": "510.30",
+        "d": "Paneer stuffed with fruit and dry fruit.",
+        "t": "v"
+      },
+      {
+        "n": "Achari Paneer",
+        "p": "405",
+        "d": "Cottage cheese in a pickle-spiced gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Malai Kofta",
+        "p": "405",
+        "d": "Cottage cheese and dry fruit dumplings in Mughlai gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Kofta Gulabadan",
+        "p": "510.30",
+        "d": "Cottage cheese, dry fruit and coconut dumplings in Mughlai gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Butter Kofta",
+        "p": "405",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Palak Kofta",
+        "p": "405",
+        "d": "Cottage cheese and potato dumplings in spinach.",
+        "t": "v"
+      },
+      {
+        "n": "Mushroom Matar",
+        "p": "378",
+        "d": "Green peas and mushroom.",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Kolhapuri",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Lahori",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Kofta Shalimar",
+        "p": "405",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Khumb Makai Masala",
+        "p": "391.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Mushroom Do Pyaaza",
+        "p": "391.50",
+        "d": "Mushroom with capsicum, tomato and onion.",
+        "t": "v"
+      },
+      {
+        "n": "Palak Mushroom",
+        "p": "391.50",
+        "d": "Spinach and mushroom.",
+        "t": "v"
+      },
+      {
+        "n": "Mushroom Masala",
+        "p": "391.50",
+        "d": "Mushroom in kadhai gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Navratan Korma",
+        "p": "418.50",
+        "d": "Vegetables and fruit in Mughlai gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Mix Veg",
+        "p": "391.50",
+        "d": "Garden vegetables, finished with paneer.",
+        "t": "v"
+      },
+      {
+        "n": "Achari Vegetables",
+        "p": "391.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Jalfrezi",
+        "p": "405",
+        "d": "Assorted vegetables in tomato gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Kadhai",
+        "p": "391.50",
+        "d": "Vegetables with onion, tomato and capsicum.",
+        "t": "v"
+      },
+      {
+        "n": "Dal Hyderabadi",
+        "p": "391.50",
+        "d": "Black lentils with spinach, cream and butter.",
+        "t": "v"
+      },
+      {
+        "n": "Dal Fry",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Dal Handi",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chana Masala",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chana Pindi",
+        "p": "391.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Palak Chana",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Dum Aloo Kashmiri",
+        "p": "405",
+        "d": "Potatoes stuffed with khoya and dry fruit, in rich tomato gravy.",
+        "t": "v"
+      },
+      {
+        "n": "Shabnam Veg",
+        "p": "418.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Hariyali Aloo",
+        "p": "378",
+        "d": "Potatoes stuffed with paneer and dry fruit, in spinach.",
+        "t": "v"
+      },
+      {
+        "n": "Aloo Jeera",
+        "p": "297",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Plain Palak",
+        "p": "324",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Gravy",
+        "p": "270",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chilli Paneer Gravy",
+        "p": "405",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Manchurian Gravy",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      }
+    ]
+  },
+  {
+    "name": "Non-veg Mains",
+    "items": [
+      {
+        "n": "Chicken Gravy",
+        "p": "243",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Egg Bhurji (2 eggs)",
+        "p": "202.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Egg Curry (2 eggs)",
+        "p": "337.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Amritsari",
+        "p": "526.50",
+        "d": "Tandoor-charred chicken in rich tomato gravy.",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Tikka Butter Masala",
+        "p": "607.50",
+        "d": "Boneless tandoor chicken in tomato gravy.",
+        "t": "n"
+      },
+      {
+        "n": "Tawa Chicken",
+        "p": "513",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Masala",
+        "p": "513",
+        "d": "Chicken in Indian gravy.",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Palak",
+        "p": "513",
+        "d": "Chicken with spinach.",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Methi Malai",
+        "p": "540",
+        "d": "Chicken in a creamy Mughlai gravy.",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Curry",
+        "p": "513",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Do Pyaaza",
+        "p": "513",
+        "d": "Chicken with plenty of onion in a thick gravy.",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Makhanwala Curry",
+        "p": "553.50",
+        "d": "Butter chicken.",
+        "t": "n"
+      },
+      {
+        "n": "Butter Chicken",
+        "p": "661.50",
+        "d": "Roasted spring chicken in tomato gravy and butter.",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Kadhai",
+        "p": "513",
+        "d": "Chicken with herbs, onion and capsicum.",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Rara Special City Heart",
+        "p": "513",
+        "d": "Chicken cooked with keema in Indian spices, finished with boiled eggs.",
+        "t": "n"
+      },
+      {
+        "n": "Murgh Handi",
+        "p": "513",
+        "d": "Chicken in a spiced Indian curry.",
+        "t": "n"
+      },
+      {
+        "n": "Mutton Rogan Josh",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Mutton Masala",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Mutton Handi",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Mutton Rara Special City Heart",
+        "p": "553.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Palak Mutton",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      }
+    ]
+  },
+  {
+    "name": "Breads",
+    "items": [
+      {
+        "n": "Tandoori Roti",
+        "p": "40.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Butter Roti",
+        "p": "47.25",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Missi Roti",
+        "p": "60.75",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Plain Naan",
+        "p": "81",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Butter Naan",
+        "p": "121.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Garlic Naan",
+        "p": "135",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Laccha Paratha",
+        "p": "81",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Stuffed Paratha",
+        "p": "162",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Pudina Paratha",
+        "p": "135",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Paneer Naan",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      }
+    ]
+  },
+  {
+    "name": "Rice & Biryani",
+    "items": [
+      {
+        "n": "Kashmiri Pulao",
+        "p": "337.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Jeera Rice",
+        "p": "270",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Steamed Rice",
+        "p": "256.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Pulao",
+        "p": "283.50",
+        "d": "Fresh vegetables with basmati rice.",
+        "t": "v"
+      },
+      {
+        "n": "Peas Pulao",
+        "p": "283.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Biryani",
+        "p": "378",
+        "d": "Seasonal vegetables and rice, cooked over a slow fire.",
+        "t": "v"
+      },
+      {
+        "n": "Chicken Biryani",
+        "p": "472.50",
+        "d": "Boneless chicken and rice, cooked over a slow fire.",
+        "t": "n"
+      },
+      {
+        "n": "Mutton Biryani",
+        "p": "540",
+        "d": "Mutton and rice, cooked over a slow fire.",
+        "t": "n"
+      }
+    ]
+  },
+  {
+    "name": "Rice & Noodles",
+    "items": [
+      {
+        "n": "Veg Fried Rice",
+        "p": "310.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Egg Fried Rice",
+        "p": "297",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Fried Rice",
+        "p": "378",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Vegetable Chopsuey",
+        "p": "405",
+        "d": "Vegetables in tomato sauce on crispy noodles.",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Hakka Noodles",
+        "p": "310.50",
+        "d": "Shredded vegetables and noodles in chilli sauce.",
+        "t": "v"
+      },
+      {
+        "n": "Vegetable Noodles",
+        "p": "297",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Egg Noodles",
+        "p": "351",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Chopsuey",
+        "p": "472.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Hakka Noodles",
+        "p": "391.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Noodles",
+        "p": "378",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chilli Chicken Garlic Noodles",
+        "p": "391.50",
+        "d": "",
+        "t": "n"
+      }
+    ]
+  },
+  {
+    "name": "Snacks & Chaat",
+    "items": [
+      {
+        "n": "Zaika Ka Lajawab Paneer Finger",
+        "p": "337.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Cutlet with Wafers",
+        "p": "270",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Cheese Cutlet with Wafers",
+        "p": "297",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "French Fries",
+        "p": "256.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Black Chana",
+        "p": "175.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Peanut Masala",
+        "p": "229.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Plain Peanut",
+        "p": "121.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Spring Roll",
+        "p": "270",
+        "d": "Thin pancake rolled around vegetables, deep fried.",
+        "t": "v"
+      },
+      {
+        "n": "Aloo Kulcha",
+        "p": "121.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Onion Kulcha",
+        "p": "121.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chilli Chana",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Crispy Corn",
+        "p": "405",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Gold Coin",
+        "p": "270",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Mirchi Paratha",
+        "p": "135",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Aloo Chana Chaat",
+        "p": "229.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Veg Sandwich",
+        "p": "243",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chicken Sandwich",
+        "p": "310.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Egg Pakoda (2 eggs)",
+        "p": "189",
+        "d": "Served with tomato ketchup.",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Spring Roll",
+        "p": "391.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Cutlet (2 pcs)",
+        "p": "472.50",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Chicken Pakora (4 pcs)",
+        "p": "540",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Paneer Kathi Roll",
+        "p": "351",
+        "d": "Cottage cheese rolled in paratha.",
+        "t": "v"
+      },
+      {
+        "n": "Veg Kathi Roll",
+        "p": "378",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chicken Kathi Roll",
+        "p": "405",
+        "d": "",
+        "t": "n"
+      },
+      {
+        "n": "Fried Wontons",
+        "p": "303.75",
+        "d": "",
+        "t": "v"
+      }
+    ]
+  },
+  {
+    "name": "Sides & Sweet",
+    "items": [
+      {
+        "n": "Mixed Raita",
+        "p": "243",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Aloo Raita",
+        "p": "243",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Boondi Raita",
+        "p": "243",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Mint Raita",
+        "p": "243",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Pineapple Raita",
+        "p": "270",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Masala Papad",
+        "p": "108",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Dry Papad",
+        "p": "40.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Fried Papad",
+        "p": "54",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Chocolate Ice Cream",
+        "p": "202.50",
+        "d": "",
+        "t": "v"
+      }
+    ]
+  },
+  {
+    "name": "Drinks",
+    "items": [
+      {
+        "n": "Fresh Lime Water",
+        "p": "94.50",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Hot Coffee",
+        "p": "135",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Masala Tea",
+        "p": "81",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Jaljeera",
+        "p": "81",
+        "d": "",
+        "t": "v"
+      },
+      {
+        "n": "Soda",
+        "p": "40.50",
+        "d": "",
+        "t": "v"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+---
+interface Props {
+  dish: string;
+}
+
+const { dish } = Astro.props;
+---
+
+<span data-dish-ctrl={dish}>
+  <button class="add" type="button" data-dish-add aria-label={`Add ${dish} to your order`}>
+    <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M7 2v10M2 7h10"></path>
+    </svg>Add
+  </button>
+  <span class="step" data-dish-step style="display:none">
+    <button type="button" data-dish-dec aria-label={`Remove one ${dish}`}>−</button>
+    <span data-dish-qty>1</span>
+    <button type="button" data-dish-inc aria-label={`Add one more ${dish}`}>+</button>
+  </span>
+</span>
+

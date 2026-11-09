@@ -1,0 +1,59 @@
+---
+import { siteConfig } from '../data/site';
+---
+
+<section class="floor" id="window" data-floor="3" aria-labelledby="win2-h">
+  <div class="wrap window-grid">
+    <div class="window-photo">
+      <img
+        src="/images/interior.jpg"
+        alt="Zaika's dining room: gingham tables, wooden chairs and wide windows looking over Nahan's rooftops"
+        loading="lazy"
+      />
+      <div class="doors" aria-hidden="true"><i></i><i></i></div>
+    </div>
+    <div class="window-card">
+      <p class="micro">The window seat</p>
+      <h2 id="win2-h" style="font-size:clamp(2rem,3.2vw,3rem)">
+        Gingham tables, <em>the bazaar three floors down.</em>
+      </h2>
+      <p class="lede">
+        Sit indoors by the long windows or out on the open terrace. Families, hotel guests, the office lunch crowd and couples on a slow evening.
+      </p>
+    </div>
+    <div class="reviews">
+      <div class="rv rv-1">
+        <p class="quote">"This restaurant is on top floor. One can enjoy food indoor and outdoor both."</p>
+        <p class="who">Himanshu · 5 stars, Google</p>
+      </div>
+      <div class="rv rv-2">
+        <p class="quote">"The food quality and taste is good and staff is quick at service."</p>
+        <p class="who">Ravi · 4 stars, Google</p>
+      </div>
+    </div>
+    <div class="ratings">
+      <div>
+        <span class="v">{siteConfig.ratings.zomatoScore}</span>
+        <p class="micro">{siteConfig.ratings.zomatoCount}</p>
+      </div>
+      <div>
+        <span class="v">{siteConfig.ratings.justdialScore}</span>
+        <p class="micro">{siteConfig.ratings.justdialCount}</p>
+      </div>
+      <a class="link" href={siteConfig.zomatoReviewsUrl} target="_blank" rel="noopener">
+        Read the Zomato reviews
+      </a>
+    </div>
+    <ul class="amen">
+      <li><span>Seating</span>Indoor &amp; open terrace</li>
+      <li><span>Access</span>Lift and stairs</li>
+      <li><span>Good for</span>Families, kids, groups</li>
+      <li><span>Pay</span>UPI, cards, cash</li>
+      <li><span>Service</span>Dine-in &amp; takeaway</li>
+      <li><span>Delivery</span>Via Zomato</li>
+      <li><span>Bar</span>[CONFIRM BAR MENU]</li>
+      <li><span>Parking</span>[CONFIRM]</li>
+    </ul>
+  </div>
+</section>
+
